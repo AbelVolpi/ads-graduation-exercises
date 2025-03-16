@@ -19,7 +19,6 @@ public class CaesarCipher {
     }
 
     public String encrypt(String text) {
-        // Criptografar
         char[] textChars = text.toCharArray();
         char[] encryptedText = new char[textChars.length];
         for (int i = 0; i < textChars.length; i++) {
@@ -31,7 +30,6 @@ public class CaesarCipher {
     }
 
     public String decrypt(String text) {
-        // Descriptografar
         char[] textChars = text.toCharArray();
         char[] decryptedText = new char[textChars.length];
         for (int i = 0; i < textChars.length; i++) {
